@@ -1,0 +1,24 @@
+
+### Get All News
+GET {{host}}/v1/news
+
+### Get News
+GET {{host}}/v1/news/01HZVJ86C6QEQ1FX85JVWPGQDM
+
+### Create News
+POST {{host}}/v1/news
+Content-Type: application/json
+
+{
+"title": "The Housemaid là bộ phim điện ảnh Hàn Quốc hay nhất mọi thời đại",
+"content": "Cơ quan Lưu trữ phim Hàn Quốc chọn The Housemaid là bộ phim đứng đầu danh sách 100 bộ phim xuất sắc nhất mọi thời đại.\n\nThe Housemaid (1960) có thể được miêu tả là rùng rợn và ngột ngạt, điên rồ và đôi lúc lố bịch, nhưng liên tục nhấn chìm người xem vào nỗi bất an bất tận trên khung nền sống động dù thiếu vắng màu sắc. Nếu đã xem bộ phim này, không có lý do gì để bạn bất đồng với Cơ quan Lưu trữ phim Hàn Quốc khi chọn nó là phim đứng đầu danh sách 100 bộ phim xuất sắc nhất mọi thời đại.\n\nCô hầu gái kinh hoàng\nThe Housemaid do đạo diễn Kim Ki Young cầm trịch kể câu chuyện về giáo viên dạy piano Kim Dong Sik (Kim Jin Kyu), vợ anh (Ju Jeung Ryu) bà Kim, một bà nội trợ, với hai đứa con nhỏ cố gắng sinh tồn trong thời buổi khó khăn. Cuộc sống của gia đình nhỏ không giàu nhưng bình yên. Nhưng rồi sự xuất hiện của kẻ thứ 3 đã phá hủy mọi thứ.\n\nMọi chuyện bắt đầu khi cả gia đình chuyển đến một ngôi nhà hai tầng mới xây ở ngoại ô. Nhận thấy công việc của chồng không còn đủ để chống đỡ 4 miệng ăn, bà Kim bắt đầu làm công việc may vá để kiếm thêm. Nhưng khi cả cha lẫn mẹ đều quay cuồng với cơm áo gạo tiền, việc chăm lo cho con nhỏ trở nên khó khăn hơn bao giờ hết.\n\nHai vợ chồng bèn nhờ bạn thân tìm cho mình một người giúp việc nữ và đó là Myung Sook (Lee Eun Sim). Trớ trêu thay, thay vì đỡ đần gia chủ, người phụ nữ quỷ quyệt sớm tống tình Dong Sik, mở đầu cho sự tan nát của gia đình họ. Khi cô ta và người vợ cùng lúc mang thai, ngôi nhà của họ trở thành một nhà tù đau khổ đọa đày.\n\nThe Housemaid: Viên ngọc sáng của điện ảnh Hàn Quốc\n\nMọi sự vĩ đại đều phải bắt đầu ở đâu đó. Nền điện ảnh Hàn Quốc không phải ngoại lệ. Để có được một Parasite (2019) rực rỡ của hôm nay, chúng ta phải nhìn lại năm tháng hoàng son đầu tiên của họ. Trong giai đoạn đó, viên ngọc mang tên The Housemaid ra đời rực rỡ và đầy say mê, như để báo trước khả năng làm nên những kiệt tác điện ảnh của Hàn Quốc sau này.\n\nLà bộ phim trắng đen, The Housemaid không thể dựa vào màu sắc để diễn giải những sắc thái tra tấn của tình cảnh kỳ cục diễn ra trước mắt bạn. Song, những góc quay điệu nghệ kết hợp với ánh sáng sống động, bộ phim nhanh chóng biến bối cảnh chính đơn giản là ngôi nhà 2 tầng của gia đình Kim thành một địa ngục thu nhỏ.\n\nĐiều đó là yếu tố đầu tiên làm The Housemaid và đạo diễn Kim Ki Young trở nên nổi bật hơn tên tuổi cùng thời. Cách ông sử dụng máy quay để thực hiện nhiều tầng ý nghĩa, di chuyển góc nhìn thường xuyên khiến các nhân vật không thể trốn chạy, tức sẽ không có sự đau khổ diễn ra ngoài khung hình mà nó luôn được đặt vào tầm mắt người xem.",
+"cover": "https://i.imgur.com/uz0Uqdg.jpg"
+}
+
+### Update News
+PUT {{host}}/v1/news/01HZVJ86C6QEQ1FX85JVWPGQDM
+Content-Type: application/json
+
+{
+  "cover": "https://example.com/cover.jpg"
+}
